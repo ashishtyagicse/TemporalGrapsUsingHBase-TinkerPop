@@ -7,5 +7,4 @@ This project demonstrates how to use an up and coming Graph framework like Apach
 
 See [Documentation](Implementing Temporal Graphs using Apache TinkerPop and HGraphDB.pdf) for more details.
 
-
-and [blog](http://blog.cloudera.com/blog/2017/08/implementing-temporal-graphs-with-apache-tinkerpop-and-hgraphdb/) for more details
+Also read [blog](http://blog.cloudera.com/blog/2017/08/implementing-temporal-graphs-with-apache-tinkerpop-and-hgraphdb/) for more details
