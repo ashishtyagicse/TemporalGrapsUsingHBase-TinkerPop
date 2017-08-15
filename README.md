@@ -5,6 +5,4 @@ Storing and changing hierarchical data sets can be a challenge, especially if da
 
 This project demonstrates how to use an up and coming Graph framework like Apache TinkerPop over big data storage like Apache Hbase to simulate the hierarchical structures. 
 
-See [Documentation](Implementing Temporal Graphs using Apache TinkerPop and HGraphDB.pdf) for more details.
-
-Also read [blog](http://blog.cloudera.com/blog/2017/08/implementing-temporal-graphs-with-apache-tinkerpop-and-hgraphdb/) for more details
+See [Documentation](https://github.com/ashishtyagicse/TemporalGrapsUsingHBase-TinkerPop/blob/master/Implementing%20Temporal%20Graphs%20using%20Apache%20TinkerPop%20and%20HGraphDB.pdf) for more details or read [blog](http://blog.cloudera.com/blog/2017/08/implementing-temporal-graphs-with-apache-tinkerpop-and-hgraphdb/) for more details
