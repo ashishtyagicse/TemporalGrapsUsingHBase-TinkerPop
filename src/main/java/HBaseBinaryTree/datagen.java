@@ -180,20 +180,20 @@ public class datagen {
         System.out.println(">> Creating Edge updates");
         long UpdateStartTime = HIERARCHY_CREATE_TIME + UPDATE_INTERVAL;
 
-        updateManual(Graph, 1, "edge_11", "JPMC_EMEA_1", UpdateStartTime);
-        updateManual(Graph, 2, "edge_10", "JPMC_INDIA_2", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 3, "edge__1", "JPMC_US_1", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 4, "edge__2", "JPMC_IB_1", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 5, "edge_2", "JPMC_2", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 6, "edge_5", "JPMC_RISK_2", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 7, "edge_3", "JPMC_1", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 8, "edge_4", "JPMC_1", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 9, "edge__5", "JPMC_1", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 1, "edge_11", "EMEA_1", UpdateStartTime);
+        updateManual(Graph, 2, "edge_10", "INDIA_2", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 3, "edge__1", "US_1", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 4, "edge__2", "IB_1", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 5, "edge_2", "US_2", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 6, "edge_5", "RISK_2", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 7, "edge_3", "US_1", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 8, "edge_4", "US_1", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 9, "edge__5", "US_1", UpdateStartTime += UPDATE_INTERVAL/2 );
         Graph.edge("edge_1").property("Till").remove();
         System.out.println("Removed edge1 ");
-        updateManual(Graph, 10, "edge__7", "JPMC_2", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 11, "edge__8", "JPMC_2", UpdateStartTime += UPDATE_INTERVAL/2 );
-        updateManual(Graph, 12, "edge__9", "JPMC_2", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 10, "edge__7", "US_2", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 11, "edge__8", "US_2", UpdateStartTime += UPDATE_INTERVAL/2 );
+        updateManual(Graph, 12, "edge__9", "US_2", UpdateStartTime += UPDATE_INTERVAL/2 );
     }
 
     /**
